@@ -1,3 +1,3 @@
 class Email < ActiveRecord::Base
-  validates :email, presence: true
+  validates :email, presence: true, uniqueness: true
 end

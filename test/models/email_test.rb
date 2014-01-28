@@ -7,4 +7,11 @@ class EmailTest < ActiveSupport::TestCase
     email.email = "luke@example.com"
     assert email.valid?
   end
+
+  test "it validates uniqueness of email" do
+    email = Email.new(email: "luke@example.com")
+    assert email.save
+    email2 = Email.new(email: "luke@example.com")
+    refute email2.valid?
+  end
 end
