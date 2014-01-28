@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'sinatra', require: 'sinatra/base'
 gem 'datamapper'
 gem 'sqlite3'
-gem 'dm-sqlite-adapter'
+#gem 'dm-sqlite-adapter'
 
 
 group :development, :test do
