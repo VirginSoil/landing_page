@@ -4,9 +4,9 @@
 
 <div id="email-form-container">
   <h2> Join our mailing list. <h2>
-    <form method='POST' id="email-form">
-      <input type='text' name='email[email]'/> Email<br/>
-      <button class ="button" type='submit'/ class="btn btn-primary" type="button">Sign up!</button>
-    </form>
+    <%= form_for Email.new do |f| %>
+      <%= f.text_field :email %>
+      <%= f.submit "Sign Up!", class: 'button' %>
+    <% end %>
   <h4> When our site is live, we will let you know </h4>
 </div>
