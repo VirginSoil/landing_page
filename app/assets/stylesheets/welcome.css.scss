@@ -13,14 +13,15 @@ html {
 #email-form-container {
   font-family: palatino;
   border-radius: 15px;
-  width: 30%;
+  width: 600px;
   height: 200px;
-  margin-top: 30%;
+  margin-top: 1%;
   margin-left: 35%;
-  padding-top: 1%;
+  padding: 15px;
   background-color: rgba(128, 128, 128, 0.6);
   vertical-align: middle;
   text-align: center;
+  color: white;
 }
 
 #email-form {
@@ -35,9 +36,26 @@ html {
 #head {
   font-family: palatino;
   color: white;
-  text-align: center;
+  margin-left: 35%;
+  text-align: middle;
+  font-size: 5em;
+  padding-left: 15px;
 }
 
 #flash {
   background-color: red;
+}
+
+#copy {
+  font-family: palatino;
+  border-radius: 15px;
+  width: 600px;
+  height: 400px;
+  margin-left: 35%;
+  padding: 15px;
+  color: white;
+  line-height: 1.3em;
+  background-color: rgba(128, 128, 128, 0.6);
+  vertical-align: middle;
+  text-align: left;
 }
