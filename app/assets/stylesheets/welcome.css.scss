@@ -5,12 +5,13 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .button {
   background-color: green;
   border-radius: 15px;
 }
 
-#email-form-container {
+#login-form-container {
   font-family: palatino;
   border-radius: 15px;
   width: 600px;
@@ -58,4 +59,11 @@ html {
   background-color: rgba(128, 128, 128, 0.6);
   vertical-align: middle;
   text-align: left;
+}
+
+#login-button {
+  padding: 20px;
+  width: 80%;
+  font-size: 3em;
+  margin-top: 8%;
 }
