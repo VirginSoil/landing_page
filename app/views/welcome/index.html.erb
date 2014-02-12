@@ -17,12 +17,6 @@
   And remember fellow gardeners, if you can imagine it, you can grow it! And Planting Season is here to help!</p>
 </div>
 
-<div id="email-form-container">
-  <h2> Join our mailing list. </h2>
-    <%= form_for Email.new do |f| %>
-      <%= f.text_field :email %>
-      <%= f.submit "Sign Up!", class: 'button' %>
-    <% end %>
-
-  <h4> When our site is live, we will let you know </h4>
+<div id="login-form-container">
+  <a href="http://localhost:8080/auth"%>><button class="button" id="login-button">Log In or Sign Up!</button></a>
 </div>
