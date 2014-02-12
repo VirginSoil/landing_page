@@ -11,4 +11,6 @@ gem 'haml'
 
 group :production do
   gem 'rails_12factor'
+  gem 'execjs'
+  gem 'therubyracer'
 end
