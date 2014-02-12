@@ -1,0 +1,148 @@
+@import "../fonts/aleo-bold-italic/stylesheet.css";
+@import "../fonts/aleo-light-regular/stylesheet.css";
+
+$bold: 'aleobold';
+$light: 'aleolight';
+$light_italic: 'aleolightitalic';
+$regular: 'aleoregular';
+
+body {
+  // background: url('../home.png') no-repeat center top;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.row {
+  width: 970px;
+}
+
+.logo {
+  a {
+    display: block;
+    background: image-url('home-logo.png') no-repeat center center;
+    width: 226px;
+    height: 33px;
+    text-indent: -9999px;
+    margin-top: 10px;
+    float: left;
+  }
+}
+
+header.main {
+  background: #fafafa;
+}
+
+.header-nav {
+  float: right;
+  font-family: $regular;
+  margin-top: 35px;
+  ul {
+    overflow: hidden;
+    li {
+      list-style-type: none;
+      float: left;
+      a {
+        padding: 5px 18px;
+        color: #999999;
+        &:hover {
+          color: #222;
+        }
+      }
+    }
+  }
+}
+
+.signup-button {
+  background: image-url('button-signup.png') no-repeat center center;
+  display: inline-block;
+  width: 246px;
+  height: 66px;
+  text-indent: -9999px;
+  &:hover {
+    border: solid 2px #fff;
+    border-radius: 7px;
+  }
+}
+
+.banner {
+  text-align: center;
+  background: image-url('home-banner.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 522px;
+  h2 {
+    margin-top: 150px;
+    color: #fafafa;
+    font-family: $regular;
+    font-size: 50px;
+    font-weight: normal;
+  }
+  .signup-button {
+    margin-top: 20px;
+  }
+}
+
+.three-actions {
+  min-height: 460px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  .action {
+    margin-top: 80px;
+  }
+  img {
+    width: 151px;
+    height: 151px;
+  }
+  h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: $light;
+  }
+  p {
+    font-family: $light;
+    font-size: 18px;
+    padding: 0 15px;
+  }
+}
+
+.quote {
+  background: #fff;
+  text-align: center;
+  font-family: $light_italic;
+  color: #222;
+  p {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+}
+
+.lower-banner {
+  text-align: center;
+  background: image-url('home-lower-banner.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 40px 0;
+  h4 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: $light;
+  }
+
+  .signup-button {
+    margin-top: 20px;
+  }
+}
+
+.footer {
+  background: #222;
+  height: 20px;
+}

@@ -1,0 +1,76 @@
+!!!
+%html
+  %head
+    %title Planting Season!
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+    = csrf_meta_tags
+  %body
+    .wrapper.header
+      %header.main.row
+        .four.columns
+          %h1.logo
+            %a{href: "#"} Planting Season
+        .eight.columns
+          %nav.header-nav
+            %ul
+              %li
+                %a{href: "#"}
+                  Home
+              %li
+                %a{href: "#"}
+                  About
+              %li
+                %a{href: "#"}
+                  Contact
+              %li
+                %a{href: "/auth/login"}
+                  Login
+    .banner
+      .row
+        .twelve.columns
+          %h2
+            Taking the guesswork
+            %br/
+            out of planting the perfect garden.
+          %a.signup-button{href: "/auth/signup"}
+            Sign Up
+    .three-actions
+      .row
+        .tools.action.four.columns
+          = image_tag('icon-tools.png')
+          %h3 Use Our Tools
+          %p
+            We use great technology
+            to provide you with some
+            really cool things that
+            help things.
+        .plant.action.four.columns
+          = image_tag('icon-plant.png')
+          %h3 Plant Your Garden
+          %p
+            We use great technology
+            to provide you with some
+            really cool things that
+            help things.
+        .grow.action.four.columns
+          = image_tag('icon-grow.png')
+          %h3 Watch It Grow
+          %p
+            We use great technology
+            to provide you with some
+            really cool things that
+            help things.
+    .quote
+      .row
+        .twelve.columns
+          %p
+            "I couldn't have asked for a better help in starting my garden this year."
+    .lower-banner
+      %h4
+        Start this season off on the right foot
+        %br/
+        and join us today!
+      %a.signup-button{:href => "/auth/signup"}
+        Signup
+    .footer
